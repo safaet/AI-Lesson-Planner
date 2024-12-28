@@ -6,6 +6,8 @@ import streamlit as st
 
 load_dotenv()
 
+key = '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'
+
 def LLM_Setup(prompt):
     try:
         model = ChatGroq(
